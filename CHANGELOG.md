@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.2.0](https://github.com/jji05/base-cnc/compare/v0.1.0...v0.2.0) (2026-03-16)
+
+
+### Features
+
+* **session:** add fundamental session type ([9264d6c](https://github.com/jji05/base-cnc/commit/9264d6c82b29a16df403a9474f8315cbb2b7a0e8))
+* **types:** add base cnc config type ([c8ad283](https://github.com/jji05/base-cnc/commit/c8ad283b10c5d74e2f71f7f35b09b77c7081a93c))
+* **types:** add fundamental command types ([c70e1d9](https://github.com/jji05/base-cnc/commit/c70e1d920e7444c55b2af3b19aef3c5ab95ef040))
+
 ## [0.1.0](https://github.com/jji05/base-cnc/compare/v0.0.0...v0.1.0) (2026-03-16)
 
 
