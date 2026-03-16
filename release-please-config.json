@@ -1,4 +1,20 @@
 {
+  "separate-pull-requests": false,
+
+  "changelog-sections": [
+    { "type": "feat", "section": "🎉 Features", "hidden": false },
+    { "type": "fix", "section": "🛠️ Fixes", "hidden": false },
+    { "type": "docs", "section": "📄 Documentation", "hidden": false },
+
+    { "type": "perf", "section": "⚡ Performance", "hidden": false },
+    { "type": "refactor", "section": "🏗️ Refactor", "hidden": false },
+    { "type": "chore", "section": "♻️ Chores", "hidden": true },
+    { "type": "test", "section": "♻️ Chores", "hidden": true },
+
+    { "type": "build", "section": "⚙️ Automation", "hidden": true },
+    { "type": "ci", "section": "⚙️ Automation", "hidden": true }
+  ],
+
   "release-type": "node",
   "tag-separator": "@",
   "include-component-in-tag": true,
