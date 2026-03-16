@@ -1,1 +1,7 @@
 .DS_Store
+
+# javascript common ignores
+node_modules
+dist
+.env
+npm-debug.log
