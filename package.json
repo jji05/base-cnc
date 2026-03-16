@@ -1,0 +1,36 @@
+{
+  "name": "basecnc",
+  "version": "0.0.0",
+  "author": "jeffthedev",
+  "description": "A base command and control framework to control applications and host a virtualised server.",
+  "license": "GPL-3.0-or-later",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "24.10.0",
+    "typescript": "5.9.3"
+  },
+  "keywords": [
+    "networking",
+    "telnet",
+    "c2",
+    "cnc",
+    "command and control"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jji05/base-cnc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jji05/base-cnc/issues"
+  },
+  "homepage": "https://github.com/jji05/base-cnc#readme",
+  "packageManager": "pnpm@10.30.3"
+}
