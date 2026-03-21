@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "ignorePatterns": ["!pnpm-lock.yaml", "!**/dist", "!**/.turbo", "!**/.vscode"],
+  "semi": false,
+  "endOfLine": "lf",
+  "bracketSpacing": true,
+  "tabWidth": 2,
+  "useTabs": false,
+  "printWidth": 100,
+  "arrowParens": "always",
+  "bracketSameLine": false,
+  "singleQuote": false,
+  "trailingComma": "all"
+}
