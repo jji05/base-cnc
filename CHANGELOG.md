@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/jji05/base-cnc/compare/v0.1.0...v0.2.0) (2026-03-21)
+
+
+### Features
+
+* **oxc:** add ox lint and ox format ([#9](https://github.com/jji05/base-cnc/issues/9)) ([144bab3](https://github.com/jji05/base-cnc/commit/144bab3c3903a70903d7af9ec4e3e4558b623a8f))
+
 ## [0.1.0](https://github.com/jji05/base-cnc/compare/v0.0.0...v0.1.0) (2026-03-16)
 
 
