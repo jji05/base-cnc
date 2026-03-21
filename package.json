@@ -12,11 +12,13 @@
     "README.md"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix"
   },
-  "dependencies": {},
   "devDependencies": {
     "@types/node": "24.10.0",
+    "oxlint": "^1.56.0",
     "typescript": "5.9.3"
   },
   "keywords": [
