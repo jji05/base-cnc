@@ -1,40 +1,43 @@
 {
   "name": "basecnc",
   "version": "0.1.0",
-  "author": "jeffthedev",
   "description": "A base command and control framework to control applications and host a virtualised server.",
-  "license": "GPL-3.0-or-later",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "type": "module",
-  "files": [
-    "dist",
-    "README.md"
-  ],
-  "scripts": {
-    "build": "tsc",
-    "lint": "oxlint",
-    "lint:fix": "oxlint --fix"
-  },
-  "devDependencies": {
-    "@types/node": "24.10.0",
-    "oxlint": "^1.56.0",
-    "typescript": "5.9.3"
-  },
   "keywords": [
-    "networking",
-    "telnet",
     "c2",
     "cnc",
-    "command and control"
+    "command and control",
+    "networking",
+    "telnet"
   ],
+  "homepage": "https://github.com/jji05/base-cnc#readme",
+  "bugs": {
+    "url": "https://github.com/jji05/base-cnc/issues"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": "jeffthedev",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jji05/base-cnc.git"
   },
-  "bugs": {
-    "url": "https://github.com/jji05/base-cnc/issues"
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check"
   },
-  "homepage": "https://github.com/jji05/base-cnc#readme",
+  "devDependencies": {
+    "@types/node": "24.10.0",
+    "oxfmt": "^0.41.0",
+    "oxlint": "^1.56.0",
+    "typescript": "5.9.3"
+  },
   "packageManager": "pnpm@10.30.3"
 }
